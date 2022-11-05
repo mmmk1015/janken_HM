@@ -1,0 +1,170 @@
+body {
+    font-family: Roboto, "筑紫B丸ゴシック", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+    background-color: rgba(255, 255, 220, 0.700);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*#cursor {
+    transform: translate(0, 0);
+    pointer-events: none;
+    position: fixed;
+    top: -4px;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    background: #ef8989;
+    border-radius: 50%;
+    z-index: 999;
+    transition: width .3s, height .3s, top .3s, left .3s;
+}
+
+body:hover {
+    top: -12px;
+    left: -12px;
+    width: 32px;
+    height: 32px;
+    background: #ef8989;
+}*/
+
+.top_background {
+    height: 250px;
+    width: auto;
+    background: url(../img/yorugohan.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.top_msg h1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(59, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 120px;
+    font-size: 55px;
+}
+
+.top_msg p {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(59, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 130px;
+    font-size: 45px;
+}
+
+
+
+.display_main {
+    width: auto;
+    margin-top: 100px;
+}
+
+.roulette {
+    display: block;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    margin: auto;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+}
+
+.cil {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(245, 245, 144);
+    border-radius: 30%;
+    /* 円*/
+    line-height: 80px;
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+.c_button {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    border: 2px solid rgb(216, 126, 126);
+    border-radius: 0;
+    background: #fff;
+    text-align: center;
+}
+
+button:hover {
+    color: #fff;
+    background: rgb(216, 126, 126);
+}
+
+.red {
+    background-color: #e885ab;
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    /* 円*/
+    line-height: 80px;
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+.pink {
+    background-color: #f3cde9;
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    /* 円*/
+    line-height: 80px;
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+.answer_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.feeling {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.recomend {
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
